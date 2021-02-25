@@ -1,0 +1,30 @@
+ h1 {
+                color: brown;
+            }
+
+            * {
+                /*border: solid;*/
+            }
+            .Header{
+                background-color: rgb(0, 255, 0);
+                display:flex;
+                justify-content: space-between;
+            }
+            .grid{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+
+            }
+            .Footer{
+                display: flex;
+                justify-content: flex-end;
+            }
+            .Site_Description{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            body{
+                background-color: blue;
+            }
